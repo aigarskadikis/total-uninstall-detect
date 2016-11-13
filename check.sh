@@ -120,9 +120,11 @@ fi
 emails=$(cat ../posting | sed '$aend of file')
 printf %s "$emails" | while IFS= read -r onemail
 do {
-python ../send-email.py "$onemail" "Total Uninstall $version" "https://faa0f0bc286ddd17e52fe1727fdebc2f5a13aaeb.googledrive.com/host/0B_3uBwg3RcdVb0RYaF9qWHRnMVk/$filename 
+python ../send-email.py "$onemail" "Total Uninstall $version" "$filename
 $md5
-$sha1"
+$sha1
+
+https://drive.google.com/drive/folders/0B_3uBwg3RcdVb0RYaF9qWHRnMVk?usp=sharing"
 } done
 echo
 fi
