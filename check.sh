@@ -124,7 +124,7 @@ python ../send-email.py "$onemail" "Total Uninstall $version" "$filename
 $md5
 $sha1
 
-https://drive.google.com/drive/folders/0B_3uBwg3RcdVb0RYaF9qWHRnMVk?usp=sharing"
+https://drive.google.com/drive/folders/0B_3uBwg3RcdVb0RYaF9qWHRnMVk "
 } done
 echo
 fi
